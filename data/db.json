@@ -1,0 +1,98 @@
+{
+  "users": [
+    {
+      "id": "5749bd8e-c824-4083-8c9d-a13717c0dd54",
+      "name": "Ariana Vale",
+      "email": "admin@ethara.ai",
+      "passwordHash": "e5b641d6f12e4b08:af43949366278e44a7c56b12141dbff207b9c817f288a3fb680ca4b2c962955f02e0485cad1061c9f333293a5e74877b8398e086fe8679451408881fad4da9fb",
+      "role": "admin",
+      "createdAt": "2026-05-08T07:39:32.956Z"
+    },
+    {
+      "id": "a1ff2198-d4e6-4fa1-a83c-f3a76c062a3c",
+      "name": "Milan Reed",
+      "email": "member@ethara.ai",
+      "passwordHash": "7716adee39ad48d4:105cd3835bf2eeade22675699e8006ac331f85f19313caffb14010a6406db4dc1a73c0868914c590d0e97ed6b0081bcea18ce63623ea8397214d82edf7223f2e",
+      "role": "member",
+      "createdAt": "2026-05-08T07:39:32.956Z"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "aa642cbb-c0df-40c5-b1e1-f85b59ca0888",
+      "userId": "5749bd8e-c824-4083-8c9d-a13717c0dd54",
+      "createdAt": "2026-05-08T07:39:33.083Z"
+    },
+    {
+      "id": "50389fac-ccf3-416d-9311-bfed08ac76f0",
+      "userId": "5749bd8e-c824-4083-8c9d-a13717c0dd54",
+      "createdAt": "2026-05-08T07:54:52.166Z"
+    }
+  ],
+  "projects": [
+    {
+      "id": "f06bc03c-889e-461e-afc5-584e74ca3373",
+      "name": "Ethara Launch",
+      "description": "Coordinated delivery plan for the product launch, dashboard, and deployment checklist.",
+      "ownerId": "5749bd8e-c824-4083-8c9d-a13717c0dd54",
+      "dueDate": "2026-05-13",
+      "memberIds": [
+        "5749bd8e-c824-4083-8c9d-a13717c0dd54",
+        "a1ff2198-d4e6-4fa1-a83c-f3a76c062a3c"
+      ],
+      "createdAt": "2026-05-08T07:39:32.956Z",
+      "updatedAt": "2026-05-08T07:39:32.956Z"
+    },
+    {
+      "id": "2da8eeb0-0ab1-4b1c-ac75-5beb2dc78ef7",
+      "name": "Client Onboarding",
+      "description": "Member-facing onboarding flows and data validation for new accounts.",
+      "ownerId": "5749bd8e-c824-4083-8c9d-a13717c0dd54",
+      "dueDate": "2026-05-18",
+      "memberIds": [
+        "5749bd8e-c824-4083-8c9d-a13717c0dd54",
+        "a1ff2198-d4e6-4fa1-a83c-f3a76c062a3c"
+      ],
+      "createdAt": "2026-05-08T07:39:32.956Z",
+      "updatedAt": "2026-05-08T07:39:32.956Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "f2b889e0-da67-4c30-81ea-5d8daa183ea3",
+      "projectId": "f06bc03c-889e-461e-afc5-584e74ca3373",
+      "title": "Ship signup and login flows",
+      "description": "Credential authentication with role-based landing pages.",
+      "status": "in-progress",
+      "priority": "high",
+      "assigneeId": "a1ff2198-d4e6-4fa1-a83c-f3a76c062a3c",
+      "dueDate": "2026-05-09",
+      "createdAt": "2026-05-08T07:39:32.956Z",
+      "updatedAt": "2026-05-08T07:39:32.956Z"
+    },
+    {
+      "id": "843383fe-5f8f-43d0-9c0d-40d567bf631d",
+      "projectId": "f06bc03c-889e-461e-afc5-584e74ca3373",
+      "title": "Deploy to Railway",
+      "description": "Wire the production build, environment variables, and smoke tests.",
+      "status": "todo",
+      "priority": "medium",
+      "assigneeId": "5749bd8e-c824-4083-8c9d-a13717c0dd54",
+      "dueDate": "2026-05-06",
+      "createdAt": "2026-05-08T07:39:32.956Z",
+      "updatedAt": "2026-05-08T07:39:32.956Z"
+    },
+    {
+      "id": "d2461c68-392d-45f9-86ef-1564c6afdbdd",
+      "projectId": "2da8eeb0-0ab1-4b1c-ac75-5beb2dc78ef7",
+      "title": "Review dashboard metrics",
+      "description": "Make overdue items easy to surface for the team.",
+      "status": "todo",
+      "priority": "low",
+      "assigneeId": "a1ff2198-d4e6-4fa1-a83c-f3a76c062a3c",
+      "dueDate": "2026-05-11",
+      "createdAt": "2026-05-08T07:39:32.956Z",
+      "updatedAt": "2026-05-08T07:39:32.956Z"
+    }
+  ]
+}
