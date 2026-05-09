@@ -27,6 +27,11 @@
       "id": "68ce5135-de6f-4d79-8a41-95d0684f67b9",
       "userId": "5749bd8e-c824-4083-8c9d-a13717c0dd54",
       "createdAt": "2026-05-08T15:03:45.034Z"
+    },
+    {
+      "id": "89762362-06d0-4763-ba24-21d41fd21024",
+      "userId": "5749bd8e-c824-4083-8c9d-a13717c0dd54",
+      "createdAt": "2026-05-09T03:54:36.571Z"
     }
   ],
   "projects": [
@@ -73,7 +78,7 @@
     {
       "id": "843383fe-5f8f-43d0-9c0d-40d567bf631d",
       "projectId": "f06bc03c-889e-461e-afc5-584e74ca3373",
-      "title": "Deploy to Railway",
+      "title": "Deploy",
       "description": "Wire the production build, environment variables, and smoke tests.",
       "status": "todo",
       "priority": "medium",
