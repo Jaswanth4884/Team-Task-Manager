@@ -1,7 +1,10 @@
 // Lightweight wrapper to ensure the standalone server reads PORT and binds to 0.0.0.0
 // Usage: `node server.js`
 process.env.PORT = process.env.PORT || '3000';
-process.env.HOST = process.env.HOST || '0.0.0.0';
+
+// Next standalone reads HOSTNAME, and container platforms often set HOSTNAME
+// to an internal container id. Force a public bind target for Railway.
+process.env.HOSTNAME = process.env.HOST || '0.0.0.0';
 
 try {
   // The standalone output exposes a server entry that will read process.env.PORT
